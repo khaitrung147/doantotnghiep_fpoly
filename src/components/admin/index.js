@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Component_list from "../../component";
+import Cpn from "../../component";
 import { Switch, Route, Link } from "react-router-dom";
 
 class Index extends Component {
@@ -8,7 +8,7 @@ class Index extends Component {
     return (
       <>
         <Switch>
-          <Route path="/admin" exact component={Component_list.Dashboard} />
+          <Route path="/admin" exact component={Cpn.Admin.Dashboard} />
         </Switch>
       </>
     );
